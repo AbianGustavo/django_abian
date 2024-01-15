@@ -8,10 +8,6 @@ ssh abian@74.234.38.215 "
   cd /home/abian/travelroad_django
   source .venv/bin/activate
   pip install -r requirements.txt
-
-  # python manage.py migrate
-  # python manage.py collectstatic --no-input
-
   sudo supervisorctl restart travelroad
 "
 
